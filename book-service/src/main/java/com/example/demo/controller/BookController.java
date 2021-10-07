@@ -17,6 +17,6 @@ public class BookController {
 	
 	@GetMapping(path="/books/{id}")
 	public Book getBookById(@PathVariable("id") int id) {
-		return this.service.getBookById(id);
+		return this.service.getBookId(id);
 	}
 }
